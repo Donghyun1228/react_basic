@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 
-class Content extends Component {
+class UpdateContent extends Component {
     render() {
       return(
         <article>
-          <h2>{this.props.title}</h2>
-          {this.props.desc}
+          <h2>Update</h2>
         </article>
       );
     }
   }
 
-  export default Content
+  export default UpdateContent
